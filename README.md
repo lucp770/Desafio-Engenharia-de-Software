@@ -5,7 +5,7 @@ To run this code is necessary to have installed the  libraries gspread oauth2cli
 ~$ pip install gspread oauth2client
 
 Following this is necessary to create a credential on : https://console.developers.google.com/project
-go on : 'API's e serviços' -> 'Credenciais' create and download a json key. The downloaded file should be renamed as credentials.json and put in the same folder as the planilhas.py file.
+go on : 'API's e serviços' -> 'Credenciais' create and download a json key. The downloaded file should be renamed as credentials.json and put in the same folder as the planilhas.py file. (the basic procedure is explained here: https://docs.gspread.org/en/latest/oauth2.html#for-bots-using-service-account)
 
 then just run python3 planilhas.py in the terminal.
 
